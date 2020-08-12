@@ -1,0 +1,534 @@
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body{
+font-family: 'PT Sans', sans-serif;
+margin-top: 20px;
+
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #50c3af;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+h2{
+   font-size: 16px; 
+    font-weight: 700;
+    color: #40474e;
+    text-transform: uppercase;
+}
+h3{
+   font-size: 14px;
+    color: #787b80;
+    line-height: 20px;
+}
+
+hr{
+    background-color:#ebebeb;
+    opacity: 20%;
+}
+/*header*/
+.header{
+    width: 800px;
+    height: 590px;
+    background:no-repeat url(img/fon+logo/fon.jpg.png) center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.header:after{
+      content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(16,25,41,.5);
+  z-index: 2;
+}
+
+.logo{ 
+    padding: 66px 0 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+
+.menu{
+    width: 100%;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 3;
+}
+
+.menu ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.menu ul li{
+    margin-right: 40px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    background-color: transparent;
+}
+.title{
+  text-align: center;
+font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 53px;
+    color:#ffffff;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 43px;
+}
+
+.header-p {
+    text-align: center;  /* выравнивание заголовка по центру обертки */
+    width: 80%;          /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+    margin: 0 auto;      /* выравнивание обертки по центру документа */
+    overflow: hidden;    /* прячем линии за границами обертки, чтобы в случае изменения ширины экрана линии не выходили за ее пределы */
+}
+
+/*header-1*/
+
+.header-p p{
+     position: relative;
+    z-index: 3;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 85px;
+}
+
+.header-p p:before {
+    display: block;
+    width:100px;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #4e666f;   
+    top:50%;                        
+    right: 110px;   
+    margin-right: -32px;
+}
+ 
+.header-p p:after {
+    display: block;
+    width:100px;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #4e666f;
+    top:50%;
+    left: 110px; 
+    margin-left: -32px;
+}
+
+.bt{
+    position: relative;
+    z-index: 3;
+    text-align: center; 
+}
+
+.bt a{
+   padding: 19px 46px; 
+    -webkit-transition: 0.3s all; 
+    transition: 0.3s all;
+}
+
+.bt a:hover{ 
+    background-color: transparent;
+    border: 1px solid #50c3af;
+}
+
+/*qualities-2*/
+
+.qualities_1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 53px;
+    padding-bottom: 63px;
+    background-color:#eeeeef;
+    
+}
+
+.qualities_2{
+    width: 196px;
+    height: 166px;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.qualities_2 img{
+    margin-bottom: 35px;
+}
+
+.qualities_2 h2{
+    margin-bottom: 20px;
+}
+
+
+.qualities_2 hr{
+    margin-bottom: 25px;
+}
+
+
+/*template-sec-3*/
+
+.template{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+.template_content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.template_content_1{
+   margin-right: 75px;
+    margin-bottom: 77px;
+}
+.template_content_1:last-child{
+    margin-right: 0;
+}
+
+.template_content_1 img{
+    margin-bottom: 43px;
+}
+
+.template_content_1 h2{
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+
+.template_content_1 hr{
+    margin-bottom: 25px;
+}
+
+.template_content_1 h3{
+    margin-bottom: 37px;
+}
+
+.template_content_1 a{
+    padding: 10px 19px;
+}
+
+/*Supported_template-4*/
+.Supported_template{
+    width: 800px;
+    min-height: 328px;
+    background-color: #eeeeef;
+    margin: 0 auto;
+}
+
+.Supported_template_1{
+    width: 575px;
+    margin: 0 auto 64px;
+    
+}
+
+.Supported_template_title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 71px;
+}
+
+.Supported_template_title img{
+    margin-right: 19px;
+}
+
+.Supported_template_title h2{
+    font-size: 18px;
+}
+
+.Supported_template_1 hr{
+    margin-bottom: 27px;
+}
+
+.Supported_template_1 h3{
+    margin-bottom: 37px;
+}
+
+.Supported_template_1 a{
+    padding: 10px 19px;
+    background-color: #d2d5da;
+}
+
+/*full-5*/
+
+.full{
+    width: 800px;
+    min-height: 441px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.full_1{
+    width: 575px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.full_2{
+    margin-right: 16px;
+    margin-top: 60px;
+}
+
+.full_2:last-child{
+    margin-right: 0;
+}
+
+.full_2 h2{
+    margin: 41px 0 20px;
+}
+
+.full_2 h3{
+    margin-bottom: 29px;
+}
+
+
+.full_2 a{
+    color: #7cd0c2;
+    background-color: transparent;
+    padding: 0;
+    font-size: 14px;
+    
+}
+
+.full_2 a:hover{
+    text-decoration: underline;
+}
+
+/*send-6*/
+
+.send{
+    width: 800px;
+/*    min-height: 322px;*/
+    background-color: #eeeeef;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+
+.send_1{
+    width: 575px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.send_2{
+    margin-right: 80px;
+    margin-bottom: 61px;
+}
+
+.send_2:last-child{
+    margin-right:0px;
+}
+
+.send_title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.send_title img{
+    margin-right: 18px;
+}
+
+.send_2 hr{
+    margin-top: 19px;
+    margin-bottom: 28px;
+}
+
+.send_2 h3{
+   margin-bottom: 39px; 
+}
+
+.send_2 a{
+    padding: 10px 20px;
+}
+
+/*just-7*/
+.just{
+    width: 800px;
+/*    min-height: 322px;*/
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+
+.just_1{
+    width: 575px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 72px;
+}
+
+.just_foto{
+    margin-right: 73px;
+}
+
+.just_1 hr{
+    margin-top: 23px;
+    margin-bottom: 31px;
+}
+
+.just_1 h3{
+   margin-bottom: 32px; 
+}
+
+.just_1 a{
+    padding: 12px 19px;
+    background-color: #d2d5da;
+}
+
+/*featured-8*/
+
+.featured{
+    width: 800px;
+    background-color: #50c3af;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+
+.featured_1{
+    width: 591px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+}
+
+.featured_title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.featured_title img{
+    margin-right: 7px;
+}
+
+.featured_title h2{
+    color: white;
+    font-size: 15px;
+}
+
+.line{
+    margin: 22px 0 41px;
+}
+
+.line hr{
+    color: #61c8b6;
+    opacity: 20%;
+    width: 257px;
+}
+
+.featured_firma img{
+    margin-right: 54px;
+}
+
+.featured_firma img:last-child{
+    margin-right: 0px;
+}
+
+/*footer-9*/
+.footer{
+    width: 800px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.footer_1{
+    width: 591px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer_1 p{
+    font-size: 15px;
+    color: #aaacaf;
+}
+
+.footer_1 p span{
+    color: #787b80;
+}
+
+.footer_1 a{
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
